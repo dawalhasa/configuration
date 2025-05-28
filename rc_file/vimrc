@@ -1,0 +1,59 @@
+# sudo vim /us/share/pulseaudio/alsa-mixer/paths/analog-output-speaker.conf
+# #################################################################################
+
+# Download Vim Plugin using following command
+# curl -fLo ~/.vim/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+# Download Vim Plugin on window
+# iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |` ni $HOME/vimfiles/autoload/plug.vim -Force
+
+# Detail information you can visit 
+# https://www.freecodecamp.org/news/vimrc-configuration-guide-customize-your-vim-editor
+
+call plug#begin('/Users/dawalhasa/.vim/plugged')
+Plug 'flazz/vim-colorschemes'
+Plug 'tpope/vim-sensible'
+Plug 'ghifarit53/tokyonight-vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'ryanoasis/vim-devicons'
+Plug 'scrooloose/nerdtree'
+call plug#end()
+
+
+" #################################################################################
+
+# vim linenumber setup
+set nu rnu
+set path+=**
+set wildmenu
+set nocompatible
+set guifont=DroidSansMono\ Nerd\ Font\ 11
+
+" #################################################################################
+
+# set color supporting dependences
+set termguicolors
+let g:tokyonight_style = 'night' # available: night, storm
+let g:tokyonight_enable_italic = 1
+
+" #################################################################################
+
+# vim airline themes
+let g:airline_theme='ayu_dark'
+let g:airline_powerline_fonts = 1
+set t_CO=256
+
+
+# you have to install the powerline fonts from github using following github
+# repository
+# git clone https://github.com/powerline/fonts.git
+
+" #################################################################################
+
+# NERDTree Toggle
+nnoremap <space> :NERDTreeToggle<CR> 
+
+# key mapping
+imap jj <esc>
+let mapleader ,
