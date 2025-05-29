@@ -1,0 +1,4 @@
+export PS1=" > "
+
+# Source Bash Alias file from .config dictory
+source ~/.config/.alias

@@ -6,11 +6,18 @@ author: Dawa Lhasa
 
 
 
-## This is some code I like:
+
+
+<!-- new_lines: 5 -->
+
+
+This is some code I like:
 ============================
 
-<!-- pause -->
+<!-- new_line -->
 
+
+<!-- pause -->
 
 ```rust
 
@@ -23,10 +30,14 @@ fn potato() ->
 <!-- end_slide -->
 
 
-## Bash Scripting:
+<!-- new_lines: 5 -->
 
 
+
+Bash Scripting:
+===============
 <!-- pause -->
+<!-- new_line -->
 
 
 
@@ -43,7 +54,9 @@ function foo(){
 <!-- end_slide -->
 
 
-<!-- font_size: 2 -->
+<!-- new_lines: 5 -->
+
+
 This is just title
 ======================
 
@@ -52,10 +65,23 @@ This is just title
 <!-- new_line -->
 
 ## Bash Scripting:
+
+<!-- pause -->
+<!-- new_line -->
+
 ```bash
 function foo(){
  Bash Scripting
 
 }
 ```
+
+<!-- end_slide -->
+
+
+<!-- new_lines: 15 -->
+
+
+Thanks for attending the lecture
+================================
 
