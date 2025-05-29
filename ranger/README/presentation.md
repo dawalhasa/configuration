@@ -30,6 +30,9 @@ fn potato() ->
 <!-- end_slide -->
 
 
+
+
+
 <!-- new_lines: 5 -->
 
 
@@ -54,6 +57,7 @@ function foo(){
 <!-- end_slide -->
 
 
+
 <!-- new_lines: 5 -->
 
 
@@ -63,6 +67,7 @@ This is just title
 <!-- pause -->
 
 <!-- new_line -->
+
 
 ## Bash Scripting:
 
@@ -82,6 +87,6 @@ function foo(){
 <!-- new_lines: 15 -->
 
 
-Thanks for attending the lecture
-================================
+ཐུགས་རྗེ་ཆེ།
+========
 

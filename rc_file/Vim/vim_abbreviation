@@ -1,0 +1,22 @@
+" Presentation Related Abbreviation
+:inoreabbrev _col0 <!-- column: 0 --><CR>
+:inoreabbrev _col0 <!-- column: 1 --><CR>
+:inoreabbrev _colay <!-- column_layout: [2, 1] --><CR> ## This is some code I like:<CR><CR>```rust<CR><CR>fn potato() -> u32 {<CR>42<CR>}<CR>```<CR><esc>4k14li
+:inoreabbrev _bash ## Bash Scripting:<CR>```bash<CR><CR>function foo(){<CR><CR> Bash Scripting<CR><CR>}<CR>```<CR><esc>4k14li
+:inoreabbrev _h1 ======================<CR>
+:inoreabbrev _break <!-- end_slide --><CR>
+:inoreabbrev _line <!-- new_line --><CR>
+:inoreabbrev _line5 <!-- new_lines: 5 --><CR>
+:inoreabbrev _pause <!-- pause --><CR>
+:inoreabbrev _nofooter <!-- no_footer --><CR>
+:inoreabbrev _center <!-- alignment: center --><CR>
+:inoreabbrev _increament <!-- incremental_lists: true --><CR>
+:inoreabbrev _fontsize <!-- font_size: 2 --><CR>
+:inoreabbrev _reset <!-- reset_layout --><CR>
+:inoreabbrev _img ![image:width:50%](image.png)<CR><esc>1kfifii 
+:inoreabbrev _theme ---<CR>theme:<CR><tab>name: tokyonight-storm<CR>---<CR><esc>1kfd
+:inoreabbrev _title ---<CR>title:Presenting from my terminal<CR>sub_title: Like it's 1990<CR>author: John Doe<CR>---<CR><esc>4kfP
+
+
+" HTML Related Abbreviation
+

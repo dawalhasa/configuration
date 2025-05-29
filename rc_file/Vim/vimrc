@@ -18,8 +18,13 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
 Plug 'scrooloose/nerdtree'
+Plug 'mattn/emmet-vim'
 call plug#end()
 
+" #################################################################################
+" Source Abbreviation file
+
+source ~/.config/.vim_abbreviation
 
 " #################################################################################
 
@@ -29,6 +34,17 @@ set path+=**
 set wildmenu
 set nocompatible
 set guifont=DroidSansMono\ Nerd\ Font\ 11
+
+" #################################################################################
+
+" HTML and CSS 
+
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
+let g:user_emmet_mode='n'    "only enable normal mode functions.
+let g:user_emmet_mode='inv'  "enable all functions, which is equal to
+let g:user_emmet_mode='a'    "enable all function in all mode.
+" let g:user_emmet_leader_key='<C-z>'
 
 " #################################################################################
 
