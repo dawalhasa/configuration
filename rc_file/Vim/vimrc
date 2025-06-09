@@ -72,4 +72,4 @@ nnoremap <space> :NERDTreeToggle<CR>
 
 # key mapping
 imap jj <esc>
-let mapleader ,
+let mapleader = ","
